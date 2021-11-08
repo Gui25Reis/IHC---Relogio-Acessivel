@@ -15,6 +15,7 @@
 		22BAA1EC2738F806005A5A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BAA1EB2738F806005A5A4C /* Assets.xcassets */; };
 		22BAA1EF2738F806005A5A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BAA1ED2738F806005A5A4C /* LaunchScreen.storyboard */; };
 		22BAA1FD27390964005A5A4C /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAA1FC27390964005A5A4C /* AlarmViewController.swift */; };
+		22BAA1FF27390FBC005A5A4C /* AlarmInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAA1FE27390FBC005A5A4C /* AlarmInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		22BAA1EE2738F806005A5A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22BAA1F02738F806005A5A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BAA1FC27390964005A5A4C /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		22BAA1FE27390FBC005A5A4C /* AlarmInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		22BAA1F72738F818005A5A4C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				22BAA1FE27390FBC005A5A4C /* AlarmInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BAA1FD27390964005A5A4C /* AlarmViewController.swift in Sources */,
+				22BAA1FF27390FBC005A5A4C /* AlarmInfo.swift in Sources */,
 				22BAA1EA2738F804005A5A4C /* IHC___Relogio_Acessivel.xcdatamodeld in Sources */,
 				22BAA1E42738F804005A5A4C /* MenuViewController.swift in Sources */,
 				22BAA1E02738F804005A5A4C /* AppDelegate.swift in Sources */,

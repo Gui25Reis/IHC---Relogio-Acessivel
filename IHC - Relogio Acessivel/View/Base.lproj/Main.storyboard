@@ -190,6 +190,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="saveAction" destination="fHb-Zv-5e9" eventType="touchUpInside" id="4NF-ax-j0e"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFF-hH-Q4j">
                                 <rect key="frame" x="34" y="748" width="130" height="40"/>
@@ -203,6 +206,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="cancelAction" destination="fHb-Zv-5e9" eventType="touchUpInside" id="6sk-u9-WEk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1xS-9a-Zs0"/>
@@ -239,6 +245,13 @@
                             <constraint firstItem="Vvf-an-vd1" firstAttribute="top" secondItem="zS7-hp-xWd" secondAttribute="bottom" constant="10" id="zqp-Uj-xbX"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="CancelButton" destination="pFF-hH-Q4j" id="RoG-yJ-9Pe"/>
+                        <outlet property="DateInput" destination="UtO-dR-4LL" id="rK8-Lu-u4k"/>
+                        <outlet property="DescriptionInput" destination="hiv-Mk-P5Y" id="pjC-0N-7Sd"/>
+                        <outlet property="SaveButton" destination="cMO-Jc-5nD" id="I4e-70-ejN"/>
+                        <outlet property="TitleInput" destination="ilv-aO-wiF" id="b9P-6v-mM9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bag-q0-NZL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

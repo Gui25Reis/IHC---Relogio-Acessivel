@@ -8,22 +8,41 @@
 import UIKit
 
 class AlarmViewController: UIViewController {
-
-    override func viewDidLoad() {
+    
+    /* MARK: - Atributos */
+    
+    // Entradas do usuário
+    @IBOutlet weak private var TitleInput: UITextField!
+    @IBOutlet weak private var DescriptionInput: UITextField!
+    @IBOutlet weak private var DateInput: UIDatePicker!
+    
+    // Repetição
+    private var Switchs: [UISwitch] = []
+    private var DaysLabels: [UILabel] = []
+    
+    // Botões
+    @IBOutlet weak private var CancelButton: UIButton!
+    @IBOutlet weak private var SaveButton: UIButton!
+    
+    
+    /* MARK: - Ciclo de Vida */
+    
+    override public func viewDidLoad() -> Void {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    /* MARK: - Ações dos Botões */
+    
+    @IBAction private func cancelAction() -> Void {
+        self.dismiss(animated: true)
     }
-    */
-
+    
+    @IBAction private func saveAction() -> Void {
+        
+    }
+    
+    
 }

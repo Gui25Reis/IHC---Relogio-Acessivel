@@ -8,12 +8,12 @@
 import UIKit
 
 class MenuViewController: UIViewController {
-
-    override func viewDidLoad() {
+    
+    
+    /* MARK: - Ciclo de Vida */
+    override public func viewDidLoad() -> Void {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
 
