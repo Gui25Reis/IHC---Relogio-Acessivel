@@ -133,12 +133,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="bla bla bla" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ilv-aO-wiF">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ilv-aO-wiF">
                                 <rect key="frame" x="31" y="94" width="352" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="bla bla bla" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hiv-Mk-P5Y">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hiv-Mk-P5Y">
                                 <rect key="frame" x="31" y="177" width="352" height="68"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="68" id="Nol-Es-whO"/>
@@ -172,7 +172,6 @@
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vvf-an-vd1">
                                 <rect key="frame" x="142" y="377" width="130" height="210"/>
-                                <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="a0A-bK-Ibg"/>
                                     <constraint firstAttribute="height" constant="210" id="quO-j2-FHy"/>
@@ -251,6 +250,7 @@
                         <outlet property="DescriptionInput" destination="hiv-Mk-P5Y" id="pjC-0N-7Sd"/>
                         <outlet property="SaveButton" destination="cMO-Jc-5nD" id="I4e-70-ejN"/>
                         <outlet property="TitleInput" destination="ilv-aO-wiF" id="b9P-6v-mM9"/>
+                        <outlet property="repetitionView" destination="Vvf-an-vd1" id="oIE-Vd-uZL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bag-q0-NZL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -264,9 +264,6 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
